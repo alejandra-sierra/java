@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Usuario {
+public class XUsuario {
     public static void main(String[] args) {
         // NOMBRE (texto)
         Scanner scanner = new Scanner(System.in);
@@ -18,12 +18,10 @@ public class Usuario {
         System.out.println("cuanto mides (en metros)?");
         float altura = scanner.nextFloat();
 
-        scanner.close();
-
         System.out.println("Hola " + nombre);
         System.out.println("Tienes " + edad + " años");
         System.out.println("Mides " + altura + " metros");
-
+        
     }
 
 }

@@ -13,8 +13,7 @@ public class RadioCirculo {
         double resultado = 3.14 * a * a;
         System.out.println("El area del circulo es " + resultado);
 
-        
-
+        scanner.close();
     }
        
 

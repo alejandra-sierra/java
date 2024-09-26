@@ -2,16 +2,15 @@
 
 import java.util.Scanner;
 
-public class AritmeticasSimples {
+public class XXXAritmeticasSimples {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Que operacion quieres hacer?");
-        float operacion = scanner.nextFloat();
+        String operacion = scanner.nextLine();
 
-        System.out.println("el resustado es " + operacion);
+      
 
-        scanner.close();
     }
 }
