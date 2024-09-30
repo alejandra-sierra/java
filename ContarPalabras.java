@@ -1,3 +1,5 @@
+//32
+
 import java.util.Scanner;
 
 public class ContarPalabras {
